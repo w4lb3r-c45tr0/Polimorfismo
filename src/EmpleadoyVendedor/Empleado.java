@@ -7,4 +7,5 @@ public class Empleado {
 	    public void resumen() {
 	        System.out.println("Empleado: " + nombre);
 }
+	    
 }
