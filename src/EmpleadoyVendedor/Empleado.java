@@ -2,14 +2,9 @@ package EmpleadoyVendedor;
 
 public class Empleado {
 
-	private String nombre;
+	 protected String nombre = "Carlos";
 
-	public Empleado(String nombre) {
-		super();
-		this.nombre = nombre;
-	}
-	
-	public double resumen() {
-		return 0;
-	}
+	    public void resumen() {
+	        System.out.println("Empleado: " + nombre);
+}
 }
