@@ -1,3 +1,19 @@
+/*
+EXPLICACIÓN:
+
+Se aplicó herencia entre Figura (clase base) y Rectangulo (clase hija).
+
+Se sobrescribió el método area() para calcular base * altura.
+
+Se aplicó polimorfismo usando:
+Figura f = new Rectangulo();
+
+Casos de prueba:
+Se creó un rectángulo y se calculó su área,
+verificando que el resultado sea correcto.
+*/
+
+
 package FigurayRectangulo;
 
 public class Main {
